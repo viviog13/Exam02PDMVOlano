@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarVendedor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="REGISTRATE VENDEDOR"
+            android:textColor="#A763"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/ed_nameR"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/userlogin"
+            android:drawablePadding="20dp"
+            android:hint="Nombres"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/ed_lastnameR"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/userlogin"
+            android:drawablePadding="20dp"
+            android:hint="Apellidos"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/ed_emailR"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/userlogin"
+            android:drawablePadding="20dp"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/ed_passwordR"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bordes"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="20dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/btn_addVend"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bordesbtn"
+            android:text="Ingresar"
+            android:textColor="#FFF" />
+    </LinearLayout>
+</LinearLayout>

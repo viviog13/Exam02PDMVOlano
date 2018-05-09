@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1029909324218",
+    "firebase_url": "https://exam02pdmvolano.firebaseio.com",
+    "project_id": "exam02pdmvolano",
+    "storage_bucket": "exam02pdmvolano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029909324218:android:02cd596c555f3b5f",
+        "android_client_info": {
+          "package_name": "com.example.alumfial1.exam02_pdm_volano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029909324218-nef1vk50gnq78plhg6viln4aqruhi8am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alumfial1.exam02_pdm_volano",
+            "certificate_hash": "dc971f05b62e0caed1299b437e7136d51c564145"
+          }
+        },
+        {
+          "client_id": "1029909324218-27rev6qc0uac30onjoag07f3gi7e8gq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqi2oFu55UHrno8FgpIf_D0B5TfM10lBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029909324218-27rev6qc0uac30onjoag07f3gi7e8gq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
